@@ -1,0 +1,33 @@
+.footer_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgb(220, 218, 218);
+  margin-top: 2rem;
+}
+
+.footer a:hover {
+  color: #fff !important;
+  opacity: 0.8;
+}
+
+.btn-success {
+  background-color: #25d366; /* WhatsApp brand color */
+  border-color: #25d366;
+}
+
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.copyright {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.whatsapp {
+  display: flex;
+}
